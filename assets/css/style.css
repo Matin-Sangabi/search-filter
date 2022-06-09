@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-color : #F1F5F9;
+    --secondary-color : #A5B4FC;
+    --primary-color : #312E81;
+}
+
+body{
+    background-color: var(--main-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    width: 100%;
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    color: var(--primary-color);
+}
+.header-title{
+    font-size: 40px;
+}
+.header-content{
+   width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.header-searchbox , .header-filter{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 95vw;   
+}
+.header-searchbox .search-icon{
+    position: relative;
+    left: 1%;
+}
+.header-searchbox svg{
+    width: 1.25rem;
+    height: 1.25rem;
+    cursor: pointer;
+    position: absolute;
+    left: 5%;
+    top:25%;
+}
+.header-searchbox input{
+    width: 100%;
+    padding: 0.5rem 0rem 0.5rem  2rem;
+    font-size: 18px;
+    border-radius:10px;
+    border: none;
+    outline: none;
+}
+.header-searchbox input:focus{
+    box-shadow: 4px 10px 6px rgba(0, 0, 0, 0.1) ;
+}
+.header-filter {
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.header-filter .btn{
+    width: 55px;
+    font-size: 10px;
+    padding: 0.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    outline: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.header-filter .btn:focus , .header-filter .btn:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+@media (min-width:550px) {
+    .header-searchbox, .header-filter{
+        max-width: 75vw;
+    }
+    .header-filter .btn{
+        width: 65px;
+        font-size: 12px;
+    }
+}
+
+@media (min-width:998px) {
+    .header-searchbox, .header-filter{
+        max-width: 55vw;
+    }
+    .header-filter .btn{
+        font-size: 14px;
+    }
+}
+
+@media (min-width:1200px) {
+    .header-searchbox, .header-filter{
+        max-width: 40vw;
+    }
+    .header-filter .btn{
+        width: 75px;
+        font-size: 16px;
+    }
+}
