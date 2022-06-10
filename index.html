@@ -19,14 +19,14 @@
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                         </svg>
                     </span>
-                    <input type="text" placeholder="search-product">
+                    <input type="text" placeholder="search-product" class="search-filter">
                 </div>
                 <div class="header-filter">
-                    <button type="button" class="btn">All</button>
-                    <button type="button" class="btn">watch</button>
-                    <button type="button" class="btn">shirt</button>
-                    <button type="button" class="btn">gown</button>
-                    <button type="button" class="btn">jewerly</button>
+                    <button type="button" class="btn" data-filter = "">All</button>
+                    <button type="button" class="btn" data-filter = "watch">watch</button>
+                    <button type="button" class="btn" data-filter = "shirt">shirt</button>
+                    <button type="button" class="btn" data-filter = "gown">gown</button>
+                    <button type="button" class="btn" data-filter = "jewelry">jewerly</button>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@
     <!-- seciton -product -->
     <section class="products">
         <div class="grid-products">
-            <div class="product">
+            <!-- <div class="product">
                 <div class="product-img">
                     <img src="./assets/images/020-quartz-rosegold-marron-frontal.png" alt="">
                 </div>
@@ -47,64 +47,10 @@
                         <span>Add to cart</span>
                     </button>
                 </div>
-            </div>
-            <div class="product">
-                <div class="product-img">
-                    <img src="./assets/images/020-quartz-rosegold-marron-frontal.png" alt="">
-                </div>
-                <div class="product-content">
-                    <span class="price">10.99$</span>
-                    <span class="title">watch product</span>
-                </div>
-                <div class="product-btn">
-                    <button type="button" class="product-btn">
-                        <span>Add to cart</span>
-                    </button>
-                </div>
-            </div>
-            <div class="product">
-                <div class="product-img">
-                    <img src="./assets/images/020-quartz-rosegold-marron-frontal.png" alt="">
-                </div>
-                <div class="product-content">
-                    <span class="price">10.99$</span>
-                    <span class="title">watch product</span>
-                </div>
-                <div class="product-btn">
-                    <button type="button" class="product-btn">
-                        <span>Add to cart</span>
-                    </button>
-                </div>
-            </div>
-            <div class="product">
-                <div class="product-img">
-                    <img src="./assets/images/020-quartz-rosegold-marron-frontal.png" alt="">
-                </div>
-                <div class="product-content">
-                    <span class="price">10.99$</span>
-                    <span class="title">watch product</span>
-                </div>
-                <div class="product-btn">
-                    <button type="button" class="product-btn">
-                        <span>Add to cart</span>
-                    </button>
-                </div>
-            </div>
-            <div class="product">
-                <div class="product-img">
-                    <img src="./assets/images/020-quartz-rosegold-marron-frontal.png" alt="">
-                </div>
-                <div class="product-content">
-                    <span class="price">10.99$</span>
-                    <span class="title">watch product</span>
-                </div>
-                <div class="product-btn">
-                    <button type="button" class="product-btn">
-                        <span>Add to cart</span>
-                    </button>
-                </div>
-            </div>
+            </div> -->
         </div>
     </section>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./assets/js/app.js"></script>
 </html>

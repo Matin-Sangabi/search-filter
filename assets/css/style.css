@@ -118,12 +118,14 @@ grid-template-columns: repeat(auto-fit , minmax(260px , 1fr));
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1rem;
 }
-
+.product-img{
+    height: 290px;
+}
 .product-img img{
     display: block;
     padding: 1rem;
     width: 100%;
-    min-height: 12rem;
+    height: auto;
 }
 .product-content{
     width: 90%;
