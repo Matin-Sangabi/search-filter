@@ -5,119 +5,119 @@
             "title" : "watch product",
             "class" : "watch",
             "price" : 10.99,
-            "image" : "./assets/images/1.png"
+            "image" : "../../assets/images/1.png"
         },
         {
             "id" : 2,
             "title" : "watch product",
             "class" : "watch",
             "price" : 12.99,
-            "image" : "./assets/images/2.png"
+            "image" : "../../assets/images/2.png"
         },
         {
             "id" : 3,
             "title" : "shirt product",
             "class" : "shirt",
             "price" : 7.99,
-            "image" : "./assets/images/3.png"
+            "image" : "../../assets/images/3.png"
         },
         {
             "id" : 4,
             "title" : "gown product",
             "class" : "gown",
             "price" : 18.99,
-            "image" : "./assets/images/4.png"
+            "image" : "../../assets/images/4.png"
         },
         {
             "id" : 5,
             "title" : "Jewelry product",
             "class" : "jewelry",
             "price" : 20.99,
-            "image" : "./assets/images/5.png"
+            "image" : "../../assets/images/5.png"
         },
         {
             "id" : 6,
             "title" : "jewelry product",
             "class" : "jewelry",
             "price" : 25.99,
-            "image" : "./assets/images/6.png"
+            "image" : "../../assets/images/6.png"
         },
         {
             "id" : 7,
             "title" : "shirt product",
             "class" : "shirt",
             "price" : 11.99,
-            "image" : "./assets/images/7.png"
+            "image" : "../../assets/images/7.png"
         },
         {
             "id" : 8,
             "title" : "jewelry product",
             "class" : "jewelry",
             "price" : 30.99,
-            "image" : "./assets/images/8.png"
+            "image" : "../../assets/images/8.png"
         },
         {
             "id" : 9,
             "title" : "gown product",
             "class" : "gown",
             "price" : 25.99,
-            "image" : "./assets/images/9.png"
+            "image" : "../../assets/images/9.png"
         },
         {
             "id" : 10,
             "title" : "watch product",
             "class" : "watch",
             "price" : 25.99,
-            "image" : "./assets/images/10.png"
+            "image" : "../../assets/images/10.png"
         },
         {
             "id" : 11,
             "title" : "shirt product",
             "class" : "shirt",
             "price" : 14.99,
-            "image" : "./assets/images/11.png"
+            "image" : "../../assets/images/11.png"
         },
         {
             "id" : 12,
             "title" : "gown product",
             "class" : "gown",
             "price" : 25.99,
-            "image" : "./assets/images/12.png"
+            "image" : "../../assets/images/12.png"
         },
         {
             "id" : 13,
             "title" : "watch product",
             "class" : "watch",
             "price" : 25.99,
-            "image" : "./assets/images/13.png"
+            "image" : "../../assets/images/13.png"
         },
         {
             "id" : 14,
             "title" : "jewelry product",
             "class" : "jewelry",
             "price" : 25.99,
-            "image" : "./assets/images/14.png"
+            "image" : "../../assets/images/14.png"
         },
         {
             "id" : 15,
             "title" : "shirt product",
             "class" : "shirt",
             "price" : 20.99,
-            "image" : "./assets/images/15.png"
+            "image" : "../../assets/images/15.png"
         },
         {
             "id" : 16,
             "title" : "gown product",
             "class" : "gown",
             "price" : 19.99,
-            "image" : "./assets/images/16.png"
+            "image" : "../../assets/images/16.png"
         },
         {
             "id" : 17,
             "title" : "watch product",
             "class" : "watch",
             "price" : 25.99,
-            "image" : "./assets/images/17.png"
+            "image" : "../../assets/images/17.png"
         }
 
     ]
